@@ -23,7 +23,7 @@ You'll be tasked with updating the fonts on both pages of the site.
 2. **Step-by-Step Walkthrough:**
     - [ ] **Task 1:** Update font styles.
         - **Subtask 1:** Select a new font for headings and/or paragraphs from the provided list.
-        - **Subtask 2:** Add the link to the selected font in the `<head>` section of both `index.html` and `about.html`.
+        - **Subtask 2:** Add the link to the selected font in the `<head>` section of both `index.html` and `about.html`. Replaace or remove links to any `font-family` you are no longer using in your CSS file by removing the appropriate <link> tag from your <head> element.  
         - **Subtask 3:** Update the CSS to apply the selected font to the headings and/or paragraphs.
             ```css
             /* Example CSS Updates */
