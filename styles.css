@@ -6,7 +6,7 @@ h4,
 h5,
 h6 {
     font-family: 'Permanent Marker', cursive;
-    color: #f4f4f4;
+    color: #ffffff;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
@@ -14,7 +14,7 @@ h6 {
 /* Base Styles for Paragraphs */
 p {
     font-family: 'Patrick Hand', cursive;
-    color: #f4f4f4;
+    color: #e0e0e0;
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 1em;
@@ -25,6 +25,7 @@ p {
     text-align: center;
 }
 
+/* Navigation Styles */
 /* Navigation Styles */
 .nav {
     list-style-type: none;
@@ -39,14 +40,25 @@ p {
 
 .nav a {
     text-decoration: none;
-    color: #f4f4f4;
+    color: #fff;
     font-family: 'Patrick Hand', cursive;
+    padding: 0.5em 1em;
+    background-color: #2d2d2d;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.nav a:hover {
+    background-color: #444;
+    transform: scale(1.05);
 }
 
 /* Page Background */
 body {
-    background-color: #2d2d2d;
-    color: #f4f4f4;
+    background-color: #333;
+    color: #e0e0e0;
     font-family: 'Patrick Hand', cursive;
     margin: 0;
     padding: 0;
@@ -57,7 +69,7 @@ body {
 
 header,
 footer {
-    background-color: #1b1b1b;
+    background-color: #222;
     padding: 1em 0;
     width: 100%;
 }
@@ -65,7 +77,7 @@ footer {
 header h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 2.5rem;
-    color: #f4f4f4;
+    color: #ffffff;
 }
 
 main {
@@ -93,14 +105,20 @@ main {
 .card {
     padding: 1em;
     margin: 1rem;
-    border: 1px solid #f4f4f4;
+    border: 1px solid #444;
     font-size: 1.3rem;
     border-radius: 10px;
-    background-color: #3e3e3e;
-    color: #f4f4f4;
+    background-color: #444;
+    color: #ffffff;
     text-align: center;
     display: inline-block;
     max-width: 28%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
@@ -109,7 +127,7 @@ main {
 }
 
 .card h3 {
-    color: #e21;
+    color: #ff6347;
     font-family: 'Permanent Marker', cursive;
 }
 
