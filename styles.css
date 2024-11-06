@@ -5,16 +5,16 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Permanent Marker', cursive;
-    color: #f4f4f4;
+    font-family: "Markazi Text", serif;
+    color: #ff0000;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
 
 /* Base Styles for Paragraphs */
 p {
-    font-family: 'Patrick Hand', cursive;
-    color: #f4f4f4;
+    font-family: "Markazi Text", serif;
+    color: #000000;
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 1em;
@@ -40,14 +40,14 @@ p {
 .nav a {
     text-decoration: none;
     color: #f4f4f4;
-    font-family: 'Patrick Hand', cursive;
+    font-family: "Markazi Text", serif;
 }
 
 /* Page Background */
 body {
-    background-color: #2d2d2d;
+    background-color: #676767;
     color: #f4f4f4;
-    font-family: 'Patrick Hand', cursive;
+    font-family: "Markazi Text", serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -63,7 +63,7 @@ footer {
 }
 
 header h1 {
-    font-family: 'Permanent Marker', cursive;
+    font-family: "Markazi Text", serif;
     font-size: 2.5rem;
     color: #f4f4f4;
 }
@@ -110,7 +110,7 @@ main {
 
 .card h3 {
     color: #e21;
-    font-family: 'Permanent Marker', cursive;
+    font-family: "Markazi Text", serif;
 }
 
 .card-number,
